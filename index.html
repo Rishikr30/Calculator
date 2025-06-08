@@ -1,54 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator App</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
+
 <body>
-    <h1 class="text-center">Welcome to My Calculator !</h1>
-    <div class="container items-center flex flex-col mx-auto">
-        <div class="row">
-            <input type="text">
+    
+    <div class="calculator">
+        <div class="display">
+            <div class="calculation"></div>
+            <div class="current-value">0</div>
         </div>
-        <div class="row">
-            <button class="button">AC</button>
-            <button class="button">%</button>
-            <button class="button">M+</button>
-            <button class="button">M</button>
-        </div>
-        <div class="row">
-            <button class="button">7</button>
-            <button class="button">8</button>
-            <button class="button">9</button>
-            <button class="button">*</button>
-        </div>
-        <div class="row">
-            <button class="button">4</button>
-            <button class="button">5</button>
-            <button class="button">6</button>
-            <button class="button">/</button>
-        </div>
-        <div class="row">
-            <button class="button">1</button>
-            <button class="button">2</button>
-            <button class="button">3</button>
-            <button class="button">+</button>
-        </div>
-        <div class="row">
-            <button class="button">0</button>
-            <button class="button">.</button>
-            <button class="button">=</button>
-            <button class="button">-</button>
+        <div class="buttons">
+            <button class="button clear">AC</button>
+            <button class="button delete"><i class="fa-solid fa-square-xmark"></i></button>
+            <button class="button operator">%</button>
+            <button class="button operator">/</button>
+
+            <button class="button number">7</button>
+            <button class="button number">8</button>
+            <button class="button number">9</button>
+            <button class="button operator">x</button>
+
+            <button class="button number">4</button>
+            <button class="button number">5</button>
+            <button class="button number">6</button>
+            <button class="button operator">-</button>
+
+            <button class="button number">1</button>
+            <button class="button number">2</button>
+            <button class="button number">3</button>
+            <button class="button operator">+</button>
+
+            <button class="button number">0</button>
+            <button class="button number">00</button>
+            <button class="button number">.</button>
+            <button class="button equals">=</button>
         </div>
 
     </div>
     <br><br><br><br>
     <footer class="footer">
-       <p class="copyright">&copy; All right reserved. <Strong>Made with ❤️ by Rishi</Strong></p>
+        <p class="copyright">&copy; All right reserved. <Strong>Made with ❤️ by Rishi</Strong></p>
     </footer>
     <script src="app.js"></script>
 </body>
+
 </html>
